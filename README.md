@@ -1,13 +1,10 @@
 # Image-Classifier-Project
 **Developing an Image Classifier with Deep Learning.**
 
-In this project, my knowledge of deep learning architectures was put to use in developing an image classifier using pytorch. The image classifier is in two parts. First it was built and trained on a deep neural network of a flower dataset which contains 102 categories of flowers. Then it was converted into a command line application. The application is a pair of Python scripts (train.py and predict.py) which runs from the command line. 
+In this project, I used my knowledge of deep learning architectures to develop an Image Classifier using Pytorch deep learning framework. 
 
-Transfer learning was used during the implementation of this project. The pretrained model, Vgg16 loaded from torchvision.models served as the pre-trained network while its pretrained layer parameters were frozen. Its parameters were modified to suit my desired model. To do this, I used the ReLU activation function and Dropout with p=0.2. 
+The project was in two parts. First, the deep neural network was built and trained on a flower dataset which contains over 100 categories. Then it was converted into a command line application. The application is a pair of Python scripts (train.py and predict.py) which runs from the command line.
 
-The command line applications (train.py and predict.py) both had different role to play. For  example, train.py was used to train a new network on a dataset and saves the model as a checkpoint. On the other hand, predict.py uses the trained network to predict the class for an input image.
+During training, I modified the hyperparameters to suit my desired model. To this end, I did a bit of exploration before exploitation.
 
-The image classifier was tested and proven to recognize a wide range of flower species. 
-
-
-@Udacity Machine Learning Introduction Nanodegree
+At end of this project, the trained network was able to recognize a wide range of flower species.
