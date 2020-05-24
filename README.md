@@ -7,4 +7,4 @@ The project was in two parts. First, the deep neural network was built and train
 
 During training, I modified the hyperparameters to suit my desired model. To this end, I did a bit of exploration before exploitation.
 
-At end of this project, the trained network was able to recognize a wide range of flower species.
+At the end of this project, the trained network was able to recognize a wide range of flower species.
