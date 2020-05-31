@@ -9,3 +9,8 @@ During training, I modified the hyperparameters to suit my desired model. To thi
 
 At the end of this project, the trained network was able to recognize a wide range of flower species.
 
+![Flower Classification 1](/images/Flower_1.png)   
+
+#
+
+![Flower Classification 2](/images/Flower_2.png)
